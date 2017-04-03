@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1E678D71E92EFCF00557931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E678D61E92EFCF00557931 /* AppDelegate.swift */; };
+		D1E678D91E92EFCF00557931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E678D81E92EFCF00557931 /* ViewController.swift */; };
+		D1E678DC1E92EFCF00557931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E678DA1E92EFCF00557931 /* Main.storyboard */; };
+		D1E678DE1E92EFCF00557931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E678DD1E92EFCF00557931 /* Assets.xcassets */; };
+		D1E678E11E92EFCF00557931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E678DF1E92EFCF00557931 /* LaunchScreen.storyboard */; };
+		D1E678EC1E92EFCF00557931 /* HunterHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E678EB1E92EFCF00557931 /* HunterHubTests.swift */; };
+		D1E678F71E92EFCF00557931 /* HunterHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E678F61E92EFCF00557931 /* HunterHubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1E678E81E92EFCF00557931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E678CB1E92EFCF00557931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E678D21E92EFCF00557931;
+			remoteInfo = HunterHub;
+		};
+		D1E678F31E92EFCF00557931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E678CB1E92EFCF00557931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E678D21E92EFCF00557931;
+			remoteInfo = HunterHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1E678D31E92EFCF00557931 /* HunterHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E678D61E92EFCF00557931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1E678D81E92EFCF00557931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1E678DB1E92EFCF00557931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1E678DD1E92EFCF00557931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1E678E01E92EFCF00557931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1E678E21E92EFCF00557931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E678E71E92EFCF00557931 /* HunterHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E678EB1E92EFCF00557931 /* HunterHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterHubTests.swift; sourceTree = "<group>"; };
+		D1E678ED1E92EFCF00557931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E678F21E92EFCF00557931 /* HunterHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E678F61E92EFCF00557931 /* HunterHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterHubUITests.swift; sourceTree = "<group>"; };
+		D1E678F81E92EFCF00557931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1E678D01E92EFCF00557931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E678E41E92EFCF00557931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E678EF1E92EFCF00557931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1E678CA1E92EFCF00557931 = {
+			isa = PBXGroup;
+			children = (
+				D1E678D51E92EFCF00557931 /* HunterHub */,
+				D1E678EA1E92EFCF00557931 /* HunterHubTests */,
+				D1E678F51E92EFCF00557931 /* HunterHubUITests */,
+				D1E678D41E92EFCF00557931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E678D41E92EFCF00557931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1E678D31E92EFCF00557931 /* HunterHub.app */,
+				D1E678E71E92EFCF00557931 /* HunterHubTests.xctest */,
+				D1E678F21E92EFCF00557931 /* HunterHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E678D51E92EFCF00557931 /* HunterHub */ = {
+			isa = PBXGroup;
+			children = (
+				D1E678D61E92EFCF00557931 /* AppDelegate.swift */,
+				D1E678D81E92EFCF00557931 /* ViewController.swift */,
+				D1E678DA1E92EFCF00557931 /* Main.storyboard */,
+				D1E678DD1E92EFCF00557931 /* Assets.xcassets */,
+				D1E678DF1E92EFCF00557931 /* LaunchScreen.storyboard */,
+				D1E678E21E92EFCF00557931 /* Info.plist */,
+			);
+			path = HunterHub;
+			sourceTree = "<group>";
+		};
+		D1E678EA1E92EFCF00557931 /* HunterHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1E678EB1E92EFCF00557931 /* HunterHubTests.swift */,
+				D1E678ED1E92EFCF00557931 /* Info.plist */,
+			);
+			path = HunterHubTests;
+			sourceTree = "<group>";
+		};
+		D1E678F51E92EFCF00557931 /* HunterHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1E678F61E92EFCF00557931 /* HunterHubUITests.swift */,
+				D1E678F81E92EFCF00557931 /* Info.plist */,
+			);
+			path = HunterHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1E678D21E92EFCF00557931 /* HunterHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E678FB1E92EFCF00557931 /* Build configuration list for PBXNativeTarget "HunterHub" */;
+			buildPhases = (
+				D1E678CF1E92EFCF00557931 /* Sources */,
+				D1E678D01E92EFCF00557931 /* Frameworks */,
+				D1E678D11E92EFCF00557931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HunterHub;
+			productName = HunterHub;
+			productReference = D1E678D31E92EFCF00557931 /* HunterHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1E678E61E92EFCF00557931 /* HunterHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E678FE1E92EFCF00557931 /* Build configuration list for PBXNativeTarget "HunterHubTests" */;
+			buildPhases = (
+				D1E678E31E92EFCF00557931 /* Sources */,
+				D1E678E41E92EFCF00557931 /* Frameworks */,
+				D1E678E51E92EFCF00557931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1E678E91E92EFCF00557931 /* PBXTargetDependency */,
+			);
+			name = HunterHubTests;
+			productName = HunterHubTests;
+			productReference = D1E678E71E92EFCF00557931 /* HunterHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1E678F11E92EFCF00557931 /* HunterHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E679011E92EFCF00557931 /* Build configuration list for PBXNativeTarget "HunterHubUITests" */;
+			buildPhases = (
+				D1E678EE1E92EFCF00557931 /* Sources */,
+				D1E678EF1E92EFCF00557931 /* Frameworks */,
+				D1E678F01E92EFCF00557931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1E678F41E92EFCF00557931 /* PBXTargetDependency */,
+			);
+			name = HunterHubUITests;
+			productName = HunterHubUITests;
+			productReference = D1E678F21E92EFCF00557931 /* HunterHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1E678CB1E92EFCF00557931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = rov;
+				TargetAttributes = {
+					D1E678D21E92EFCF00557931 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RVC6T4M2H3;
+						ProvisioningStyle = Automatic;
+					};
+					D1E678E61E92EFCF00557931 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RVC6T4M2H3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1E678D21E92EFCF00557931;
+					};
+					D1E678F11E92EFCF00557931 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RVC6T4M2H3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1E678D21E92EFCF00557931;
+					};
+				};
+			};
+			buildConfigurationList = D1E678CE1E92EFCF00557931 /* Build configuration list for PBXProject "HunterHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1E678CA1E92EFCF00557931;
+			productRefGroup = D1E678D41E92EFCF00557931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1E678D21E92EFCF00557931 /* HunterHub */,
+				D1E678E61E92EFCF00557931 /* HunterHubTests */,
+				D1E678F11E92EFCF00557931 /* HunterHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1E678D11E92EFCF00557931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E678E11E92EFCF00557931 /* LaunchScreen.storyboard in Resources */,
+				D1E678DE1E92EFCF00557931 /* Assets.xcassets in Resources */,
+				D1E678DC1E92EFCF00557931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E678E51E92EFCF00557931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E678F01E92EFCF00557931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1E678CF1E92EFCF00557931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E678D91E92EFCF00557931 /* ViewController.swift in Sources */,
+				D1E678D71E92EFCF00557931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E678E31E92EFCF00557931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E678EC1E92EFCF00557931 /* HunterHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E678EE1E92EFCF00557931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E678F71E92EFCF00557931 /* HunterHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1E678E91E92EFCF00557931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E678D21E92EFCF00557931 /* HunterHub */;
+			targetProxy = D1E678E81E92EFCF00557931 /* PBXContainerItemProxy */;
+		};
+		D1E678F41E92EFCF00557931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E678D21E92EFCF00557931 /* HunterHub */;
+			targetProxy = D1E678F31E92EFCF00557931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1E678DA1E92EFCF00557931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E678DB1E92EFCF00557931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1E678DF1E92EFCF00557931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E678E01E92EFCF00557931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1E678F91E92EFCF00557931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1E678FA1E92EFCF00557931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1E678FC1E92EFCF00557931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVC6T4M2H3;
+				INFOPLIST_FILE = HunterHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rov.HunterHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D1E678FD1E92EFCF00557931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVC6T4M2H3;
+				INFOPLIST_FILE = HunterHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rov.HunterHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D1E678FF1E92EFCF00557931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RVC6T4M2H3;
+				INFOPLIST_FILE = HunterHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rov.HunterHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunterHub.app/HunterHub";
+			};
+			name = Debug;
+		};
+		D1E679001E92EFCF00557931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RVC6T4M2H3;
+				INFOPLIST_FILE = HunterHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rov.HunterHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunterHub.app/HunterHub";
+			};
+			name = Release;
+		};
+		D1E679021E92EFCF00557931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RVC6T4M2H3;
+				INFOPLIST_FILE = HunterHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rov.HunterHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HunterHub;
+			};
+			name = Debug;
+		};
+		D1E679031E92EFCF00557931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RVC6T4M2H3;
+				INFOPLIST_FILE = HunterHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rov.HunterHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HunterHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1E678CE1E92EFCF00557931 /* Build configuration list for PBXProject "HunterHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E678F91E92EFCF00557931 /* Debug */,
+				D1E678FA1E92EFCF00557931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E678FB1E92EFCF00557931 /* Build configuration list for PBXNativeTarget "HunterHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E678FC1E92EFCF00557931 /* Debug */,
+				D1E678FD1E92EFCF00557931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1E678FE1E92EFCF00557931 /* Build configuration list for PBXNativeTarget "HunterHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E678FF1E92EFCF00557931 /* Debug */,
+				D1E679001E92EFCF00557931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1E679011E92EFCF00557931 /* Build configuration list for PBXNativeTarget "HunterHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E679021E92EFCF00557931 /* Debug */,
+				D1E679031E92EFCF00557931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1E678CB1E92EFCF00557931 /* Project object */;
+}
