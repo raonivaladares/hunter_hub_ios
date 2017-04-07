@@ -35,6 +35,9 @@
                                         <state key="normal" title="Sign Up">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="ChF-hh-AaB" kind="show" id="tCH-jO-yyM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vd6-db-4zb">
                                         <rect key="frame" x="0.0" y="44" width="303" height="34"/>
@@ -42,6 +45,9 @@
                                         <state key="normal" title="Log In">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="sjy-RW-30f" kind="show" id="E0H-OB-amG"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -60,10 +66,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="BB9-Re-aaM">
             <objects>
-                <viewController id="ChF-hh-AaB" sceneMemberID="viewController">
+                <viewController id="ChF-hh-AaB" customClass="SignUpViewController" customModule="HunterHub" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gZB-Fs-Gkd"/>
                         <viewControllerLayoutGuide type="bottom" id="hY0-C6-9vk"/>
@@ -71,12 +77,29 @@
                     <view key="view" contentMode="scaleToFill" id="Fwl-wV-mPB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NG-HM-dgU">
+                                <rect key="frame" x="36" y="313.5" width="303" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nix-yu-80k"/>
+                                </constraints>
+                                <state key="normal" title="Continue with Facebook"/>
+                                <connections>
+                                    <action selector="buttonFacebookAction:" destination="ChF-hh-AaB" eventType="touchUpInside" id="SG2-m5-I7i"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3NG-HM-dgU" firstAttribute="leading" secondItem="Fwl-wV-mPB" secondAttribute="leadingMargin" constant="20" id="FXm-ma-9hm"/>
+                            <constraint firstItem="3NG-HM-dgU" firstAttribute="centerY" secondItem="Fwl-wV-mPB" secondAttribute="centerY" id="FtC-5w-5fS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3NG-HM-dgU" secondAttribute="trailing" constant="20" id="HCJ-yT-KPU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gw6-3k-T7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="39"/>
+            <point key="canvasLocation" x="1375" y="60"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0R6-Jr-kCc">
@@ -94,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="buh-Xd-Ohh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="706"/>
+            <point key="canvasLocation" x="854" y="881"/>
         </scene>
     </scenes>
     <resources>
