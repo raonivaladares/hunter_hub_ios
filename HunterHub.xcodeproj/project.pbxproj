@@ -12,6 +12,7 @@
 		AD2FA228E921829A1D79DE6E /* Pods_HunterHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96916AF09FED174356447294 /* Pods_HunterHubTests.framework */; };
 		D1B363A31E96A23A0011F94B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B363A21E96A23A0011F94B /* SignUpViewController.swift */; };
 		D1B363A51E9706990011F94B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B363A41E9706990011F94B /* User.swift */; };
+		D1B363AA1E9712020011F94B /* FacebookAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B363A91E9712020011F94B /* FacebookAPI.swift */; };
 		D1E678D71E92EFCF00557931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E678D61E92EFCF00557931 /* AppDelegate.swift */; };
 		D1E678D91E92EFCF00557931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E678D81E92EFCF00557931 /* ViewController.swift */; };
 		D1E678DC1E92EFCF00557931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E678DA1E92EFCF00557931 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		BC3BF2C35202DEE5D915C929 /* Pods_HunterHubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HunterHubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B363A21E96A23A0011F94B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D1B363A41E9706990011F94B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D1B363A91E9712020011F94B /* FacebookAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAPI.swift; sourceTree = "<group>"; };
 		D1E678D31E92EFCF00557931 /* HunterHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E678D61E92EFCF00557931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E678D81E92EFCF00557931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D1B363A61E9710510011F94B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1B363A21E96A23A0011F94B /* SignUpViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D1B363A71E9710640011F94B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1B363A41E9706990011F94B /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D1B363A81E9711E70011F94B /* network */ = {
+			isa = PBXGroup;
+			children = (
+				D1B363A91E9712020011F94B /* FacebookAPI.swift */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
 		D1E678CA1E92EFCF00557931 = {
 			isa = PBXGroup;
 			children = (
@@ -131,14 +157,15 @@
 		D1E678D51E92EFCF00557931 /* HunterHub */ = {
 			isa = PBXGroup;
 			children = (
+				D1B363A81E9711E70011F94B /* network */,
+				D1B363A71E9710640011F94B /* Models */,
+				D1B363A61E9710510011F94B /* Controllers */,
 				D1E678D61E92EFCF00557931 /* AppDelegate.swift */,
 				D1E678D81E92EFCF00557931 /* ViewController.swift */,
 				D1E678DA1E92EFCF00557931 /* Main.storyboard */,
 				D1E678DD1E92EFCF00557931 /* Assets.xcassets */,
 				D1E678DF1E92EFCF00557931 /* LaunchScreen.storyboard */,
 				D1E678E21E92EFCF00557931 /* Info.plist */,
-				D1B363A21E96A23A0011F94B /* SignUpViewController.swift */,
-				D1B363A41E9706990011F94B /* User.swift */,
 			);
 			path = HunterHub;
 			sourceTree = "<group>";
@@ -458,6 +485,7 @@
 				D1B363A51E9706990011F94B /* User.swift in Sources */,
 				D1B363A31E96A23A0011F94B /* SignUpViewController.swift in Sources */,
 				D1E678D91E92EFCF00557931 /* ViewController.swift in Sources */,
+				D1B363AA1E9712020011F94B /* FacebookAPI.swift in Sources */,
 				D1E678D71E92EFCF00557931 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
